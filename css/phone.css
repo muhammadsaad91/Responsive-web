@@ -1,0 +1,96 @@
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding bottom: 10px;
+}
+
+#home {
+    flex-direction: column;
+    height: 309px;
+    padding: 0px 2px;
+}
+
+#home::before {
+    height: 500px;
+}
+
+#home p {
+    font-size: 13px;
+}
+
+.hprimary {
+    font-size: 2rem;
+    margin: 2px -26px
+}
+
+#services {
+    flex-direction: column;
+}
+
+#services .box {
+    border: 2px solid black;
+    background-color: rgb(235, 228, 228);
+    border-radius: 20px;
+    margin: 11px 17px;
+}
+
+#services .box img {
+    width: 156px;
+}
+
+#clients {
+    flex-wrap: wrap
+}
+
+#clients img {
+    width: 66px;
+    height: auto;
+}
+
+.servicescont h1 {
+    padding-top: 115px;
+}
+
+#clientsec {
+    position: relative;
+}
+
+#clientsec::before {
+    z-index: -1;
+    height: 95%;
+    width: 95%;
+    opacity: 0.5;
+    content: "";
+    position: absolute;
+    background: url('../bkg2.jpg')no-repeat center center/cover;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 4px 10px;
+}
+
+#contact h1 {
+    padding-top: 9px;
+}
+
+#cont {
+    width: 300px;
+}
+
+#contact {
+    padding: 0%;
+    height: 238px;
+}
+
+.fb {
+    margin: -62px;
+}
+
+.foot {
+    font-size: 0.7rem;
+}

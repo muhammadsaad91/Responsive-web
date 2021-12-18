@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* css variables*/
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+}
+
+#logo {
+    margin: 10px 19px;
+}
+
+#logo img {
+    height: 42px;
+}
+
+#navbar ul {
+    display: flex;
+    margin: auto;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 200px;
+    height: 435px;
+}
+
+#home::before {
+    content: "";
+    background: url('../dnbg.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0%;
+    left: 0%;
+    opacity: 0.9;
+}
+
+element.style {}
+
+#home h1 {
+    color: white;
+    text-align: center;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.hprimary {
+    font-size: 3.2rem;
+    padding: 26px;
+    text-align: center;
+    padding: top 0;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 17px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: rgb(200, 192, 177);
+}
+
+#services {
+    display: flex;
+    padding: 2px;
+    flex-direction: row;
+}
+
+#services .box {
+    border: 2px solid black;
+    background-color: rgb(235, 228, 228);
+    border-radius: 30px;
+    margin: 10px 60px;
+}
+
+#services .box img {
+    height: 160px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+#services .box p {
+    text-align: center;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+
+.hsecondary {
+    font-size: 2.3rem;
+    padding: 12px;
+    text-align: center;
+}
+
+.servicescont h1 {
+    padding-top: 125px;
+}
+
+#clientsec h1 {
+    padding-top: 22px;
+}
+
+#clientsec::before {
+    z-index: -1;
+    height: 70%;
+    width: 100%;
+    opacity: 0.5;
+    content: "";
+    position: absolute;
+    background: url('../bkg2.jpg')no-repeat center center/cover;
+}
+
+#clients {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#clients img {
+    height: 100px;
+}
+
+.clientsitem {
+    padding: 35px;
+}
+
+#contact {
+    height: 400px;
+    padding: 100px;
+}
+
+#contact h1 {
+    padding: 85px
+}
+
+#cont {
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 250px;
+    margin: auto;
+    display: flex;
+}
+
+.fb {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.fb img {
+    height: 50%;
+}
+
+.foot {
+    background: black;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+}
